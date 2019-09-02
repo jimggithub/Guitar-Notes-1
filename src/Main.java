@@ -1,3 +1,5 @@
+
+
 public class Main {
 
     public static void main(String[] args) {
@@ -27,5 +29,25 @@ public class Main {
         }
         System.out.println("End of Program");
 
+        int fretPosition = 1;
+        char openStringNote = 'E' ;
+
+        //GuitarString c = new GuitarString(fretPosition,openStringNote);
+
+        System.out.println(getNote(fretPosition, openStringNote));
+
     }
+
+
+    public static String getNote(int a, char b) {
+        System.out.println("Hello from getNote");
+
+        System.out.println("Fret position is " + a);
+        return "A#";
+
+
+
+
+    }
+
 }
